@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+// import React, { Suspense } from "react";
 import "./App.css";
 
 // const type = "ls"; // "hw" или "ls"
@@ -15,15 +15,14 @@ import "./App.css";
 // const Def = React.lazy(() => import(`${getSelectedPath(type, number)}`));
 
 // import Def from "./hw/hw_02/Homework02.jsx";
-
 import Def from "./lessons/lesson_04/Lesson04.jsx";
 
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Def />
-      </Suspense>
+      {/* <Suspense fallback={<div>Loading...</div>}> */}
+      <Def />
+      {/* </Suspense> */}
     </>
   );
 }
