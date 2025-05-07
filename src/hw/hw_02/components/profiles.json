@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://i.pravatar.cc/300?img=22",
+    "fname": "Anna",
+    "lname": "Müller",
+    "occupation": "Webentwicklerin",
+    "hobby": "Fotografie"
+  },
+  {
+    "id": 2,
+    "avatar": "https://i.pravatar.cc/300?img=60",
+    "fname": "Frank",
+    "lname": "Fleish",
+    "occupation": "React dev",
+    "hobby": "Tennis"
+  },
+  {
+    "id": 3,
+    "avatar": "https://i.pravatar.cc/300?img=50",
+    "fname": "Zigmund",
+    "lname": "Friend",
+    "occupation": "Painter",
+    "hobby": "Bed"
+  }
+]

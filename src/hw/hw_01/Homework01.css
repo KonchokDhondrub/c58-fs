@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: rgba(255, 255, 0, 0.06);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  place-items: stretch;
+}
+
+.top {
+  display: flex;
+  justify-items: end;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.container {
+  max-width: 700px;
+}
+
+.top > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0 30px 0 0;
+  line-height: 0.8;
+}
+
+.photo {
+  height: 13em;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 5.2em;
+  margin: 0 0;
+}
+
+.description {
+  text-align: left;
+  margin: 0 0 0 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links > li {
+  display: inline;
+}
+
+.box h3 {
+  margin-bottom: 0;
+}
+
+.box ul,
+p {
+  margin-top: 0;
+}
+
+.box li {
+  line-height: 1.3;
+}
+
+.box > p {
+  margin-left: 20px;
+}

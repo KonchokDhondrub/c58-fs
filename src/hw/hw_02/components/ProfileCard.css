@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.box {
+  border: 2px darkorange solid;
+  border-radius: 10px;
+  /* width: 300px; */
+  padding: 10px;
+}
+
+.box span {
+  font-weight: 600;
+}
+
+.box > img {
+  border-radius: 10px;
+}

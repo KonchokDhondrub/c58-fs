@@ -1,0 +1,11 @@
+.my-button-def {
+  margin: 3px;
+  background-color: rgba(207, 86, 34, 0.8);
+  color: wheat;
+  font-size: 22px;
+  padding: 7px;
+}
+
+.my-button-def:hover {
+  background-color: rgb(207, 86, 34);
+}
