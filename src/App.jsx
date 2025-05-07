@@ -14,8 +14,8 @@ import "./App.css";
 
 // const Def = React.lazy(() => import(`${getSelectedPath(type, number)}`));
 
-// import Def from "./hw/hw_02/Homework02.jsx";
-import Def from "./lessons/lesson_04/Lesson04.jsx";
+import Def from "./hw/hw_04/Homework04.jsx";
+// import Def from "./lessons/lesson_04/Lesson04.jsx";
 
 function App() {
   return (
