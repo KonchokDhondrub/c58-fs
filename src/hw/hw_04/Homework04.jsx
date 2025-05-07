@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import Feedback from "../../components/feedback/Feedback";
 
-function Homework04({ setPageTitle }) {
+function Homework04() {
   useEffect(() => {
-    setPageTitle("Feedback – Homework 04");
-  }, [setPageTitle]);
+    document.title = "Feedback – Homework 04";
+  }, []);
 
   return <Feedback />;
 }
