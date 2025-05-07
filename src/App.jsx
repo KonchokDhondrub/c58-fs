@@ -1,4 +1,5 @@
 // import React, { Suspense } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 // const type = "ls"; // "hw" или "ls"
@@ -18,10 +19,16 @@ import Def from "./hw/hw_04/Homework04.jsx";
 // import Def from "./lessons/lesson_04/Lesson04.jsx";
 
 function App() {
+  const [pageTitle, setPageTitle] = useState("KD's FrontEnd");
+
+  useEffect(() => {
+    document.title = pageTitle;
+  }, [pageTitle]);
+
   return (
     <>
       {/* <Suspense fallback={<div>Loading...</div>}> */}
-      <Def />
+      <Def setPageTitle={setPageTitle} />
       {/* </Suspense> */}
     </>
   );

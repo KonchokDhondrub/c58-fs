@@ -1,23 +1,10 @@
-//    - Кнопка "Like" с отображением количества лайков слева от неё.
-//    - Кнопка "Dislike" с отображением количества дизлайков справа от неё.
-//    - Кнопка "Reset Results", при клике на которую лайки и дизлайки обнуляются.
-//    - Для кнопок используйте компонент `MyButton`.
-//    - Стили оформления на ваше усмотрение.
-
 import { useState } from "react";
 import MyButton from "../myButton/MyButton";
 import MyInput from "../myInput/MyInput";
 import "./Feedback.css";
 
 function Feedback() {
-  //   const [comment, setComment] = useState("");
-
   let [comment, setComment] = useState(0);
-
-  // function handleSubmit(i) {
-  //   console.log("comment:", comment);
-  //   setCount((p) => p + i);
-  // }
 
   let [countLike, setCountLike] = useState(0);
   let [countDislike, setCountDislike] = useState(0);
