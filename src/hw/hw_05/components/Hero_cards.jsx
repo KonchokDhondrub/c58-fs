@@ -5,11 +5,11 @@ function Hero_cards({ props: { id, isDark, name, age, weapons, image } }) {
         <p>
           {name}, {age}, {isDark ? "👺" : "👼"}
         </p>
-        <p>
+        <ul>
           {weapons.map((w, i) => (
             <li key={i}>{w}</li>
           ))}
-        </p>
+        </ul>
       </div>
       <div className="hero-img">
         <img src={image} alt={name} />
