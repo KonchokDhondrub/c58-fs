@@ -1,11 +1,8 @@
 import { useState } from "react";
 import MyButton from "../myButton/MyButton";
-import MyInput from "../myInput/MyInput";
 import "./Feedback.css";
 
 function Feedback() {
-  let [comment, setComment] = useState(0);
-
   let [countLike, setCountLike] = useState(0);
   let [countDislike, setCountDislike] = useState(0);
 
