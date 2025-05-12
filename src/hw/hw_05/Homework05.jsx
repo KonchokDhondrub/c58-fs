@@ -7,7 +7,7 @@ function Lesson05() {
 //   console.log(fellowship);
 
   useEffect(() => {
-    document.title = "React map() 🧝🏻‍♂️ – Homework 05";
+    document.title = "React map() 🧝🏻‍♂️ – Homework 5";
   }, []);
 
   return (

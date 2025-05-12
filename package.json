@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist",
-    "lazy": "git add . && git commit -m 'lazy' && git push"
+    "lazy": "git add . && git commit -m 'code update' && git push"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
