@@ -1,0 +1,58 @@
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  width: 100%;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: left;
+  gap: 10px;
+
+  border: 2px rgb(181, 59, 212) solid;
+  border-radius: 5px;
+
+  padding: 10px;
+  width: 400px;
+}
+
+.hero-box-text p,
+li {
+  margin: 0;
+  text-wrap: wrap;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hero-box-text span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.hero-img {
+  width: 200px;
+  height: 200px;
+  /* overflow: hidden; */
+  /* border-radius: 50%; */
+}
+
+.hero-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-box-dark {
+  border: 2px red solid;
+}
+.hero-box-light {
+  border: 2px blue solid;
+}

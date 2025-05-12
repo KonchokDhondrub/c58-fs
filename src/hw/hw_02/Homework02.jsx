@@ -7,7 +7,7 @@ function Homework02() {
     <>
       <h1>My Best Friends!</h1>
       <div className="container">
-        {personList.map((person, index) => (
+        {personList.map((person) => (
           <div className="box">
             <ProfileCard props={person} />
           </div>
