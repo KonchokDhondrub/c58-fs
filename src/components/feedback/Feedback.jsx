@@ -7,8 +7,8 @@ function Feedback() {
   let [countDislike, setCountDislike] = useState(0);
 
   function resetAll() {
-    setCountLike((p) => 0);
-    setCountDislike((p) => 0);
+    setCountLike(0);
+    setCountDislike(0);
   }
 
   return (
