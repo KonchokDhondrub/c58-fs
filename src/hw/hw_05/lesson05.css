@@ -8,6 +8,12 @@
   width: 100%;
 }
 
+.hero-container .key {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 .hero-box {
   display: flex;
   flex-direction: row;
@@ -21,6 +27,19 @@
 
   padding: 10px;
   width: 400px;
+}
+
+.hero-container button {
+  padding: 0;
+}
+
+.hero-container button > .btn-text {
+  display: inline-block;
+  transform: rotate(270deg);
+  white-space: nowrap;
+  
+  font-size: 40px;
+  margin: 0;
 }
 
 .hero-box-text p,

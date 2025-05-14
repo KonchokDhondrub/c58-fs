@@ -4,6 +4,7 @@
   color: wheat;
   font-size: 22px;
   padding: 7px;
+  margin: 0;
 }
 
 .my-button-def:hover {

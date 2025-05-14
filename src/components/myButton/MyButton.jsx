@@ -8,7 +8,7 @@ function MyButton({ func, onClick, type = "button", text = "click me!", classNam
 
   return (
     <button onClick={handleClick} type={type} className={className}>
-      {text}
+      <span class="btn-text">{text}</span>
     </button>
   );
 }
